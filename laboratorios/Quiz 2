@@ -1,0 +1,22 @@
+#Aristides Ortega
+x =0
+comprad=0
+while x<=6:
+        cliente =print ("introduce el nombre del cliente: ")
+        compra = int(input("introduce el valor de la compra: "))
+        if compra >= 500:
+                comprad= compra-(compra*0.30)
+                print (str(comprad))
+        else:
+                if compra >= 200:
+                    comprad = compra -(compra *0.20)
+                    print (str(comprad))
+                else:
+                        if compra <= 200:
+                                comprad = compra -(compra *0.10)
+                                print (str(comprad))
+                                
+else:  
+          print(str(compra))
+          x = x +1
+          
