@@ -1,0 +1,6 @@
+¿Qué es main y cómo funciona?
+A diferencia de otros lenguajes de programación, en Python no hay main(); 
+Se usa mayormente cuando se hace un script que puede ser importado o ejecutado por separado, 
+es una convención de Python que viene a decir que lo que hay a partir de esta línea tiene que ejecutarse 
+si se ejecuta el archivo .py. Lo utilizaremos otras veces y veremos de su importancia más adelante, convirtiendo el script
+en algo portable y reutilizable.
